@@ -10,7 +10,7 @@ use Carbon\Carbon;
 use App\Models\SchoolYear;
 use App\Models\SubjectLoad;
 use App\Models\Student;
-use App\Models\StudentOfCLass;
+use App\Models\StudentOfClass;
 use App\Models\Role;
 use App\Models\Classes;
 use App\Models\Subject;

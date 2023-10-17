@@ -80,7 +80,7 @@ class StudentDiplomaExport implements ShouldAutoSize
     {
         // Load the PDF template
         $pdf = new Pdf(public_path('\diploma.pdf'), [
-            'command' => 'C:\Program Files (x86)\PDFtk\bin\pdftk.exe',
+            'command' => '/usr/bin/pdftk',
             'useExec' => true,
         ]);
         

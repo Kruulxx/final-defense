@@ -85,7 +85,7 @@ class StudentNinePdfExport implements ShouldAutoSize
     {
         // Load the PDF template
         $pdf = new Pdf(public_path('\SF9-M3GFinals.pdf'), [
-            'command' => 'C:\Program Files (x86)\PDFtk\bin\pdftk.exe',
+            'command' => '/usr/bin/pdftk',
             'useExec' => true,
         ]);
         

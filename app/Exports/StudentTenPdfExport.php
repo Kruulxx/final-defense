@@ -119,7 +119,7 @@ class StudentTenPdfExport implements ShouldAutoSize
     {
         // Load the PDF template
         $pdf = new Pdf(public_path('\sf10-form.pdf'), [
-            'command' => 'C:\Program Files (x86)\PDFtk Server\bin\pdftk.exe',
+            'command' => '/usr/bin/pdftk',
             'useExec' => true,
         ]);
         
